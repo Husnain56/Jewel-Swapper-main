@@ -1,5 +1,3 @@
-//MUAZ 23L-0816
-//HUSNAIN 23L-0860
 
 #include<iostream>
 #include<SFML\Graphics.hpp>
@@ -9,7 +7,7 @@ using namespace std;
 using namespace sf;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
-// SWAP FUNCT
+// SWAP FUNCTION
 
 void swaper(int &a, int &b) {
 	int temp;

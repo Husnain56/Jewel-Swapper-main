@@ -6,7 +6,7 @@
 using namespace std;
 using namespace sf;
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 // SWAP FUNCTION
 
 void swaper(int &a, int &b) {
@@ -107,7 +107,7 @@ void scoreWindow(int score) {
 	// FONT
 
 	Font font;
-	if (!font.loadFromFile("RubikMonoOne-Regular.ttf")) {}
+	if (!font.loadFromFile("Fonts/RubikMonoOne-Regular.ttf")) {}
 
 
 	/////////////////////////////////////////////////////////////////////////////////
@@ -186,7 +186,7 @@ void playGame() {
 	// BACKGROUND
 
 	Texture gameBgTexture;
-	if (!gameBgTexture.loadFromFile("gameBg.jpg")) {}
+	if (!gameBgTexture.loadFromFile("Backgrounds/gameBg.jpg")) {}
 
 	Sprite gameBg;
 	gameBg.setScale(1200.f / gameBgTexture.getSize().x, 800.f / gameBgTexture.getSize().y);
@@ -196,7 +196,7 @@ void playGame() {
 	// FONT
 
 	Font font;
-	if (!font.loadFromFile("RubikMonoOne-Regular.ttf")) {}
+	if (!font.loadFromFile("Fonts/RubikMonoOne-Regular.ttf")) {}
 
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// TEXT
@@ -260,8 +260,8 @@ void playGame() {
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// TABLE
 
-	Texture tableTexture1;
-	if (!tableTexture1.loadFromFile("table1.png")) {}
+	/*Texture tableTexture1;
+	if (!tableTexture1.loadFromFile("Table/table1.png")) {}
 
 	Sprite table1;
 	table1.setScale(70.f / tableTexture1.getSize().x, 70.f / tableTexture1.getSize().y);
@@ -269,11 +269,11 @@ void playGame() {
 
 
 	Texture tableTexture2;
-	if (!tableTexture2.loadFromFile("table2.png")) {}
+	if (!tableTexture2.loadFromFile("Table/table2.png")) {}
 
 	Sprite table2;
 	table2.setScale(70.f / tableTexture2.getSize().x, 70.f / tableTexture2.getSize().y);
-	table2.setTexture(tableTexture2);
+	table2.setTexture(tableTexture2);*/
 
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// GEMS
@@ -295,7 +295,7 @@ void playGame() {
 	// SELECTOR
 
 	Texture selectTexture;
-	if (!selectTexture.loadFromFile("selected.png")) {}
+	if (!selectTexture.loadFromFile("Selector/selected.png")) {}
 
 	Sprite select;
 	select.setScale(70.f / selectTexture.getSize().x, 70.f / selectTexture.getSize().y);
@@ -413,7 +413,7 @@ void playGame() {
 		/////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// TABLE
 
-	for (int i = 0; i < 8; i++) {
+	/*for (int i = 0; i < 8; i++) {
 		for (int j = 0; j < 8; j++) {
 
 			if ((i % 2 == 0 && j % 2 == 0) || (i % 2 != 0 && j % 2 != 0)) {
@@ -426,7 +426,7 @@ void playGame() {
 			}
 
 		}
-	}
+	}*/
 
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// LOADING GEMS
@@ -437,7 +437,7 @@ void playGame() {
 	for (int i = 0; i < 8; i++) {
 		for (int j = 0; j < 8; j++) {
 			gem.setPosition(540 + (70 * j), 150 + (70 * i));
-			if (!gemTexture.loadFromFile("gem" + to_string(arr[i][j]) + ".png")) {}
+			if (!gemTexture.loadFromFile("Gem Images/gem" + to_string(arr[i][j]) + ".png")) {}
 			gem.setScale(70.f / gemTexture.getSize().x, 70.f / gemTexture.getSize().y);
 			gem.setTexture(gemTexture);
 			game.draw(gem);
@@ -757,7 +757,7 @@ int main() {
 	// BACKGROUND
 
 	Texture menuBgTexture;
-	if(!menuBgTexture.loadFromFile("bg.jpg")) {}
+	if(!menuBgTexture.loadFromFile("Backgrounds/bg.jpg")) {}
 
 	Sprite menuBg;
 	menuBg.setScale(1200.f / menuBgTexture.getSize().x, 800.f / menuBgTexture.getSize().y);
@@ -767,7 +767,7 @@ int main() {
 	// TITLE
 
 	Texture titleTexture;
-	if (!titleTexture.loadFromFile("title.png")) {
+	if (!titleTexture.loadFromFile("Title/title.png")) {
 		cout << "failed";
 	}
 
@@ -780,7 +780,7 @@ int main() {
 	// FONT
 
 	Font font;
-	if(!font.loadFromFile("RubikMonoOne-Regular.ttf")) {}
+	if(!font.loadFromFile("Fonts/RubikMonoOne-Regular.ttf")) {}
 
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// TEXT

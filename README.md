@@ -2,7 +2,7 @@
 
 # DESCRIPTION
 
-Jewel Swapper is a simple console-based game implemented in C++ using the SFML library. It's a match-three puzzle game where players swap adjacent gems to form chains of three or more identical gems.
+Jewel Swapper is a candy crush type game implemented in C++ using the SFML library where players swap adjacent gems to form chains of three or more identical gems.
 
 # TABLE OF CONTENTS
 

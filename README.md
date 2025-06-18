@@ -6,6 +6,8 @@ Jewel Swapper is a candy crush type game implemented in C++ using the SFML libra
 
 # TABLE OF CONTENTS
 
+-Game Screenshots
+
 -Installation
 
 -How to Play
@@ -15,6 +17,15 @@ Jewel Swapper is a candy crush type game implemented in C++ using the SFML libra
 -Dependencies
 
 -License
+
+# Screenshots
+
+![image](https://github.com/user-attachments/assets/b547040f-5b56-4a83-854f-dca5b8f27acd)
+
+![image](https://github.com/user-attachments/assets/7e69b855-42d2-4b83-a96d-3b0aa11aaf29)
+
+![image](https://github.com/user-attachments/assets/af1048b0-8979-4520-b068-1fc020777150)
+
 
 # INSTALLATION
 

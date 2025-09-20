@@ -48,6 +48,12 @@ Score: Players earn points by creating matches.
 
 Special Gems: Some gems trigger special effects when matched.
 
+# Contributors 
+
+Husnain 
+
+Muaz Arshad
+
 # DEPENDENCIES
 
 SFML Library: Simple and Fast Multimedia Library (SFML)
